@@ -20,6 +20,5 @@ describe("App Test", () => {
   test("Should contain msw response array",async () => {
     setup(<App />);
     await screen.findByText(/12345/)
-    screen.debug(undefined,50000)
   });
 });
