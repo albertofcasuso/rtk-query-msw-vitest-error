@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "vite",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.0.1",
+    "jsdom": "^21.0.0",
+    "msw": "^0.49.2",
+    "vite": "^4.0.4",
+    "vitest": "^0.26.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/react": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
